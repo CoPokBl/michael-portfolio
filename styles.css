@@ -1,0 +1,67 @@
+p, h1, h2, h3, h4, h5, h6, div {
+    font-family: "JetBrains Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    /*font-family: 'Fuzzy Bubbles B', Fuzzy Bubbles, Arial, sans-serif !important;*/
+    color: #14171a;
+}
+
+body, html {
+    height: 100%;
+}
+
+.row_one {
+    display: flex;
+    justify-content: center;
+}
+
+.main-page {
+    background: #282c34;
+    justify-content: center;
+    margin: auto;
+    width: 670px;
+}
+
+.border-all {
+    border-style: solid;
+    border-width: 5px;
+    border-color: #1b2125;
+}
+
+.title {
+    background-color: #2d323a;
+    width: 350px;
+    height: 110px;
+    align-items: center;
+    font-size: 84px;
+    justify-content: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 75px;
+    color: #23262a;
+}
+
+.skills {
+    margin-top: 25px;
+    margin-left: 9px;
+    background-color: #2d323a;
+    text-align: center;
+    align-content: center;
+    flex-grow: 3;
+}
+
+.skills-text {
+    color: #23262a;
+}
+
+.image-style {
+    margin-top: 25px;
+    width: 150px;
+    height: 150px;
+}
+
+main {
+    flex: 1;
+}
