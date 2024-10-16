@@ -11,6 +11,15 @@ body, html {
     height: 100%;
 }
 
+main {
+    flex: 1;
+}
+
+.a {
+    color: #e5c07b;
+    text-decoration: underline;
+}
+
 .rows {
     display: flex;
     justify-content: center;
@@ -37,9 +46,17 @@ body, html {
     font-size: 84px;
     justify-content: center;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 75px;
+    margin: 75px auto 0;
+    color: #ee586b;
+}
+
+.sub-title {
+    background-color: #2d323a;
+    align-items: center;
+    font-size: 24px;
+    justify-content: center;
+    text-align: center;
+    margin: 55px auto 0;
     color: #ee586b;
 }
 
@@ -52,8 +69,31 @@ body, html {
     flex-grow: 1;
 }
 
+.red-words {
+    color: #ee586b;
+}
+
+.purple-words {
+    color: #c35edd;
+}
+
+.green-words {
+    color: #89c86f;
+}
+
+.blue-words {
+    color: #52abef;
+}
+
+.yellow-words {
+    color: #e5c07b;
+}
+
 .text-additions {
-    color: #23262a;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 15px;
+    color: #abb0b6;
 }
 
 .skills {
@@ -66,6 +106,7 @@ body, html {
 }
 
 .projects-size {
+    display: flex;
     margin-top: 25px;
     height: 150px;
     background-color: #2d323a;
@@ -97,6 +138,14 @@ body, html {
     height: 150px;
 }
 
-main {
-    flex: 1;
+.image-style-left {
+    border-right: solid;
+    border-width: 5px;
+    border-color: #1b2125;
 }
+
+.projects-image {
+    width: 140px;
+    height: 140px;
+}
+
