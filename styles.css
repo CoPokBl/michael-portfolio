@@ -11,7 +11,7 @@ body, html {
     height: 100%;
 }
 
-.row_one {
+.rows {
     display: flex;
     justify-content: center;
 }
@@ -40,20 +40,55 @@ body, html {
     margin-left: auto;
     margin-right: auto;
     margin-top: 75px;
+    color: #ee586b;
+}
+
+.about-me {
+    margin-top: 25px;
+    margin-left: 9px;
+    background-color: #2d323a;
+    text-align: center;
+    align-content: center;
+    flex-grow: 1;
+}
+
+.text-additions {
     color: #23262a;
 }
 
 .skills {
     margin-top: 25px;
-    margin-left: 9px;
+    height: 150px;
     background-color: #2d323a;
     text-align: center;
     align-content: center;
     flex-grow: 3;
 }
 
-.skills-text {
-    color: #23262a;
+.projects-size {
+    margin-top: 25px;
+    height: 150px;
+    background-color: #2d323a;
+    text-align: center;
+    align-content: center;
+    flex-grow: 1;
+}
+
+.project-left {
+    margin-right: 5px;
+}
+
+.project-right {
+    margin-left: 4px;
+}
+
+.links-section {
+    margin-top: 25px;
+    height: 100px;
+    background-color: #2d323a;
+    text-align: center;
+    align-content: center;
+    flex-grow: 1;
 }
 
 .image-style {
