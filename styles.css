@@ -90,9 +90,7 @@ main {
 }
 
 .text-additions {
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 15px;
+    margin: 15px 10px 15px;
     color: #abb0b6;
 }
 
@@ -112,23 +110,43 @@ main {
     background-color: #2d323a;
     text-align: center;
     align-content: center;
-    flex-grow: 1;
 }
 
 .project-left {
     margin-right: 5px;
+    width: 335px;
 }
 
 .project-right {
     margin-left: 4px;
+    width: 335px;
+}
+
+.links-row {
+    display: flex;
+    flex-direction: row;
 }
 
 .links-section {
     margin-top: 25px;
+    margin-bottom: 35px;
     height: 100px;
     background-color: #2d323a;
-    text-align: center;
+    align-content: start;
+    flex-grow: 1;
+}
+
+.links-image {
+    margin: 5px 5px 5px 5px;
+    width: 80px;
+    height: 80px;
+}
+
+.links-text {
+    color: #ee586b;
     align-content: center;
+    text-align: left;
+    margin: 5px 5px 5px 5px;
     flex-grow: 1;
 }
 
